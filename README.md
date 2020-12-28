@@ -7,7 +7,9 @@ The Equinox Project is a open-source project written in .NET Core
 
 The goal of this project is implement the most common used technologies and share with the technical community the best way to develop great applications with .NET
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6518989bea914b348c92385dda05f93d)](https://www.codacy.com/manual/EduardoPires/EquinoxProject?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EduardoPires/EquinoxProject&amp;utm_campaign=Badge_Grade)
 [![Build status](https://ci.appveyor.com/api/projects/status/rl2ja69994rt3ei6?svg=true)](https://ci.appveyor.com/project/EduardoPires/equinoxproject)
+![.NET Core](https://github.com/EduardoPires/EquinoxProject/workflows/.NET%20Core/badge.svg)
 [![License](https://img.shields.io/github/license/eduardopires/equinoxproject.svg)](LICENSE)
 [![Issues open](https://img.shields.io/github/issues/eduardopires/equinoxproject.svg)](https://huboard.com/EduardoPires/EquinoxProject/)
 
@@ -38,6 +40,8 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - FluentValidator
 - MediatR
 - Swagger UI with JWT support
+- .NET DevPack
+- .NET DevPack.Identity
 
 ## Architecture:
 
@@ -45,12 +49,18 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Domain Driven Design (Layers and Domain Model Pattern)
 - Domain Events
 - Domain Notification
+- Domain Validations
 - CQRS (Imediate Consistency)
 - Event Sourcing
 - Unit of Work
-- Repository and Generic Repository
+- Repository
 
 ## News
+
+**v1.6 - 06/09/2020**
+- Full Refactoring (consistency, events, validation, identity)
+- Added [NetDevPack](https://github.com/NetDevPack) and saving a hundreds of code lines
+- All dependencies is up to date
 
 **v1.5 - 01/22/2020**
 - Migrated for .NET Core 3.1.1
